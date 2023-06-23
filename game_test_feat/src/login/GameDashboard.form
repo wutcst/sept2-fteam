@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="login.GameDashboard">
+  <grid id="27dc6" binding="dashboardPanel" layout-manager="GridLayoutManager" row-count="4" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="20"/>
+    <constraints>
+      <xy x="20" y="55" width="844" height="450"/>
+    </constraints>
+    <properties>
+      <background color="-4010241"/>
+      <enabled value="true"/>
+      <foreground color="-15594741"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="23e8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="17" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="ludo_home.gif"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="51b71" class="javax.swing.JLabel" binding="lbAdmin">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="17" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="36" style="1"/>
+          <foreground color="-15594741"/>
+          <text value="Welcome to my Games Pannel"/>
+        </properties>
+      </component>
+      <component id="cdfa7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="Mario.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="180b3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="Ludok.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5c892" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="chess.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f7853" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="registerNow.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="bbf61" class="javax.swing.JButton" binding="chessButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-67842"/>
+          <foreground color="-15594741"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Chess"/>
+        </properties>
+      </component>
+      <component id="cc195" class="javax.swing.JButton" binding="btnLudo">
+        <constraints>
+          <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-67842"/>
+          <foreground color="-15594741"/>
+          <text value="LudoSimulator"/>
+        </properties>
+      </component>
+      <component id="3418d" class="javax.swing.JButton" binding="marioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-67842"/>
+          <enabled value="true"/>
+          <foreground color="-15594741"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Mario"/>
+        </properties>
+      </component>
+      <component id="62289" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-67842"/>
+          <font name="Consolas" size="14" style="0"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <hspacer id="d30ea">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
